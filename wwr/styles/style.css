@@ -8,18 +8,22 @@
     width:  100%;
 }
 body {
+    margin: 0;
     background-color: #396E94;
 }
 header {
     background-color: #396E94;
 }
-#content { max-width: 1600px; 
-    margin: 0 auto
+#content { 
+    max-width: 1600px; 
+    margin: 50px auto
 }
 nav a {
+    padding: 10px;
     text-align: center;
     color: #D4AC0D;
     text-decoration: none;
+    line-height: 1.5em;
 }
 nav a:hover {
     background-color: #396E94;
@@ -75,7 +79,10 @@ footer {
     color: white;
 }
 footer p {
+    padding: 25px;
+    color: white;
     font-size: 1.2em;
+    margin: 20px auto;
 }
 footer p a:hover{
     text-decoration: underline;
