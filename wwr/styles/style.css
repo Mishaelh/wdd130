@@ -16,6 +16,9 @@
 main section img {
     box-sizing: border-box;
 }
+section.msg {
+    border: 10px;
+}
 body {
     font-family: Laila, Helvetica, sans-serif;
     margin: 0;
