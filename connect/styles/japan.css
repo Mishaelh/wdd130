@@ -55,38 +55,63 @@ div .social {
     display: flex;
     max-width: 40px;
 }
-.block1 {
-    margin: 5px;
+.block1 h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.block1 img{
+.cascade {
+    margin-left: 60px;
+    grid-column: 1/2;
     width: 90%;
 }
-.block1 p {
+.fuji {
+    margin-left: 110px;
+    grid-column: 2/3;
+    width: 50%;
+}
+.block2 h2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.temple {
+    grid-column-start: 2/3;
+    width: 90%;
+}
+.block2 h2 p {
+    margin-top: 50px;
+    grid-column: 1/2;
+    grid-row: 1/3;
     text-align: center;
 }
-.block2 {
+.block3 h3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:  1fr;
 }
-.block2 img {
-    align-items: right;
-    width: 90%;
+.shrine {
+    grid-column: 1/2;
+    width:90%;
 }
-.block3{
-    margin: 3%;
+.block3 h3 p{
+    margin-top: 50px;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    text-align: center;
+    align-content: space-around;
+}
+.block4 h4{
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
-.block3 img {
-    grid-row-end: 2;
+.tokyo{
+    margin-left: 20px;
+    grid-column: 2/3;
     width: 90%;
 }
-.block3 p {
-    grid-column-start: 2;
+.block4 h4 p {
+    margin-top:  90px;
+    grid-column: 1/2;
+    align-content: space-around;
+    text-align: center;
 }
 footer{
     margin-top: 3%;
@@ -96,6 +121,6 @@ footer{
 }
 footer a {
     margin-top: 5px;
-text-align: center;
-align-content: space-around;
+    text-align: center;
+    align-content: space-around;
 }

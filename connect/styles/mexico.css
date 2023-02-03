@@ -55,39 +55,57 @@ div .social {
     display: flex;
     max-width: 40px;
 }
-.block1 {
-    margin: 5px;
+.block1 h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.block1 img{
+.posas {
+    grid-column: 1/2;
     width: 90%;
 }
-.block1 p {
+.block1 h1 p {
+    grid-column: 2/3;
     text-align: center;
 }
-.block2 {
+.block2 h2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:  1fr;
 }
-.block2 img {
-    align-items: right;
+.huasteca {
+    grid-column: 2/3;
     width: 90%;
 }
-.block3{
-    margin: 3%;
+.block2 h2 p {
+    grid-column:  1/2;
+    text-align: center;
+}
+.block3 h3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.diamuertos {
+    grid-column: 2/3;
+    width: 90%;
+}
+.block3 h3 p {
+    grid-column: 1/2;
+    text-align: center;
+}
+.block4 h4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.tacos{
+    grid-column: 1/2;
+    width: 90%;
+}
+.block4 h4 p {
+    margin-top: 20%;
+    align-content: center;
+    grid-column: 2/3;
+    text-align: center;
+}
 
-}
-.block3 img {
-    grid-row-end: 2;
-    width: 90%;
-}
-.block3 p {
-    grid-column-start: 2;
-}
 footer{
     margin-top: 3%;
     height: 100px;
@@ -96,6 +114,6 @@ footer{
 }
 footer a {
     margin-top: 5px;
-text-align: center;
-align-content: space-around;
+    text-align: center;
+    align-content: space-around;
 }
