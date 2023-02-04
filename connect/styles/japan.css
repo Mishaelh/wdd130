@@ -24,6 +24,7 @@
 }
 
 body {
+    background-color: var(--primary-color);
     width: auto;
     height: auto;
     margin: 3%;
@@ -31,6 +32,8 @@ body {
     font-size: 22px;
 }
 header {
+    background-color: var(--secondary-color);
+    font-family: var(--heading-font);
     display: grid;
     grid-template-columns: 1fr 5fr 1fr  ;
     grid-template-rows: 1fr;
@@ -55,6 +58,9 @@ div .social {
     display: flex;
     max-width: 40px;
 }
+main {
+    font-family: var(--paragraph-font);
+}
 .block1 h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -70,6 +76,7 @@ div .social {
     width: 50%;
 }
 .block2 h2 {
+    background-color: var(--accent1-color);
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -99,6 +106,7 @@ div .social {
     align-content: space-around;
 }
 .block4 h4{
+    background-color: var(--accent1-color);
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -114,12 +122,14 @@ div .social {
     text-align: center;
 }
 footer{
+    background-color: var(--secondary-color);
     margin-top: 3%;
     height: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr
 }
 footer a {
+    font-family: var(--heading-font);
     margin-top: 5px;
     text-align: center;
     align-content: space-around;

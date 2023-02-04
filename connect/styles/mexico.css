@@ -24,6 +24,7 @@
 }
 
 body {
+    background-color: var(--primary-color);
     width: auto;
     height: auto;
     margin: 3%;
@@ -31,6 +32,8 @@ body {
     font-size: 22px;
 }
 header {
+    background-color: var(--secondary-color);
+    font-family: var(--heading-font);
     display: grid;
     grid-template-columns: 1fr 5fr 1fr  ;
     grid-template-rows: 1fr;
@@ -55,7 +58,11 @@ div .social {
     display: flex;
     max-width: 40px;
 }
+main {
+    font-family: var(--paragraph-font);
+}
 .block1 h1 {
+    background-color: var(--accent1-color);
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -80,6 +87,7 @@ div .social {
     text-align: center;
 }
 .block3 h3 {
+    background-color: var(--accent1-color);
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -107,6 +115,8 @@ div .social {
 }
 
 footer{
+    background-color: var(--secondary-color);
+    font-family: var(--heading-font);
     margin-top: 3%;
     height: 100px;
     display: grid;

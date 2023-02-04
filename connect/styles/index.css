@@ -24,6 +24,7 @@
 }
 
 body {
+    background-color: var(--primary-color);
     width: auto;
     height: auto;
     margin: 3%;
@@ -31,6 +32,8 @@ body {
     font-size: 22px;
 }
 header {
+    background-color: var(--secondary-color);
+    font-family: var(--heading-font);
     display: grid;
     grid-template-columns: 1fr 5fr 1fr  ;
     grid-template-rows: 1fr;
@@ -55,7 +58,11 @@ div .social {
     display: flex;
     max-width: 40px;
 }
+main {
+    font-family: var(--paragraph-font);
+}
 .block1 {
+    background-color: var(--accent1-color);
     margin: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -76,6 +83,7 @@ div .social {
     width: 90%;
 }
 .block3{
+    background-color: var(--accent1-color);
     margin: 3%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -89,6 +97,8 @@ div .social {
     grid-column-start: 2;
 }
 footer{
+    background-color: var(--secondary-color);
+    font-family: var(--heading-font);
     margin-top: 3%;
     height: 100px;
     display: grid;
