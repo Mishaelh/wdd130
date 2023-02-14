@@ -1,21 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Merriweather&display=swap');
 
 :root {
-  /* change the values below to your colors from your palette */
   --primary-color: #917C78   ;
   --secondary-color: #FFF275 ;
   --accent1-color: #80C2AF;
   --accent2-color: #1E2D2F;
 
-  /* change the values below to your chosen font(s) */
   --heading-font: "Libre+Baskerville";
   --paragraph-font: Merriweather, sans-serif;
 
-  /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #1E2D2F;  /* headlines on a white background */ 
-  --headline-color-on-color: #FFF275; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #1E2D2F; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #FFF275; /* paragraph text on a colored background */ 
+ 
+  --headline-color-on-white: #1E2D2F; 
+  --headline-color-on-color: #FFF275;
+  --paragraph-color-on-white: #1E2D2F;
+  --paragraph-color-on-color: #FFF275; 
   --paragraph-background-color: #1E2D2F  ;
   --nav-link-color: #FFF275;
   --nav-background-color: #1E2D2F;
@@ -61,76 +59,51 @@ div .social {
 main {
     font-family: var(--paragraph-font);
 }
-.block1 h1 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.cascade {
-    margin-left: 60px;
-    grid-column: 1/2;
-    width: 90%;
-}
-.fuji {
-    margin-left: 110px;
-    grid-column: 2/3;
-    width: 50%;
-}
-.block2 h2 {
+.block1 {
     background-color: var(--accent1-color);
+    margin: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-.temple {
-    grid-column-start: 2/3;
+.block1 img{
     width: 90%;
 }
-.block2 h2 p {
-    margin-top: 50px;
-    grid-column: 1/2;
-    grid-row: 1/3;
+.block1 p {
     text-align: center;
 }
-.block3 h3 {
+.block2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows:  1fr;
 }
-.shrine {
-    grid-column: 1/2;
-    width:90%;
+.block2 img {
+    align-items: right;
+    width: 90%;
 }
-.block3 h3 p{
-    margin-top: 50px;
-    grid-column: 2/3;
-    grid-row: 1/3;
-    text-align: center;
-    align-content: space-around;
-}
-.block4 h4{
+.block3{
     background-color: var(--accent1-color);
+    margin: 3%;
     display: grid;
     grid-template-columns: 1fr 1fr;
+
 }
-.tokyo{
-    margin-left: 20px;
-    grid-column: 2/3;
+.block3 img {
+    grid-row-end: 2;
     width: 90%;
 }
-.block4 h4 p {
-    margin-top:  90px;
-    grid-column: 1/2;
-    align-content: space-around;
-    text-align: center;
+.block3 p {
+    grid-column-start: 2;
 }
 footer{
     background-color: var(--secondary-color);
+    font-family: var(--heading-font);
     margin-top: 3%;
     height: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr
 }
 footer a {
-    font-family: var(--heading-font);
     margin-top: 5px;
-    text-align: center;
-    align-content: space-around;
+text-align: center;
+align-content: space-around;
 }

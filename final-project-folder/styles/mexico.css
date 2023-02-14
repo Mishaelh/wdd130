@@ -1,21 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Merriweather&display=swap');
 
 :root {
-  /* change the values below to your colors from your palette */
   --primary-color: #917C78   ;
   --secondary-color: #FFF275 ;
   --accent1-color: #80C2AF;
   --accent2-color: #1E2D2F;
 
-  /* change the values below to your chosen font(s) */
   --heading-font: "Libre+Baskerville";
   --paragraph-font: Merriweather, sans-serif;
 
-  /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #1E2D2F;  /* headlines on a white background */ 
-  --headline-color-on-color: #FFF275; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #1E2D2F; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #FFF275; /* paragraph text on a colored background */ 
+
+  --headline-color-on-white: #1E2D2F;  
+  --headline-color-on-color: #FFF275;
+  --paragraph-color-on-white: #1E2D2F;
+  --paragraph-color-on-color: #FFF275; 
   --paragraph-background-color: #1E2D2F  ;
   --nav-link-color: #FFF275;
   --nav-background-color: #1E2D2F;
